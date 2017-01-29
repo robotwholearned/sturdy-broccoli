@@ -7,7 +7,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5Pg-mL-ELm">
-                                <rect key="frame" x="16" y="28" width="343" height="333.5"/>
+                                <rect key="frame" x="16" y="28" width="343" height="334"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -39,14 +38,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5Pg-mL-ELm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="1id-uk-Pwc"/>
-                            <constraint firstItem="5Pg-mL-ELm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3gk-dj-nsR"/>
-                            <constraint firstItem="CZM-xN-b9c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Bmy-SN-zfG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="CZM-xN-b9c" secondAttribute="trailing" id="Sjv-vl-29c"/>
-                            <constraint firstItem="CZM-xN-b9c" firstAttribute="leading" secondItem="5Pg-mL-ELm" secondAttribute="trailing" constant="-343" id="Y1T-xi-LYd"/>
-                            <constraint firstItem="5Pg-mL-ELm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="aiJ-C1-1nJ"/>
-                            <constraint firstItem="5Pg-mL-ELm" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="obB-vY-IkZ"/>
-                            <constraint firstItem="CZM-xN-b9c" firstAttribute="top" secondItem="5Pg-mL-ELm" secondAttribute="bottom" constant="7.5" id="wqj-MV-qge"/>
+                            <constraint firstItem="5Pg-mL-ELm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="6JZ-YI-fTA"/>
+                            <constraint firstItem="5Pg-mL-ELm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Bh5-o8-lha"/>
+                            <constraint firstItem="5Pg-mL-ELm" firstAttribute="trailing" secondItem="CZM-xN-b9c" secondAttribute="trailing" id="Iry-34-rfB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CZM-xN-b9c" secondAttribute="bottom" constant="268" id="K96-SC-OZT"/>
+                            <constraint firstItem="5Pg-mL-ELm" firstAttribute="leading" secondItem="CZM-xN-b9c" secondAttribute="leading" id="NMZ-QQ-3Y3"/>
+                            <constraint firstItem="CZM-xN-b9c" firstAttribute="top" secondItem="5Pg-mL-ELm" secondAttribute="bottom" constant="7" id="SmW-Od-TJ2"/>
+                            <constraint firstItem="5Pg-mL-ELm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kVh-rv-3dk"/>
                         </constraints>
                     </view>
                     <connections>
