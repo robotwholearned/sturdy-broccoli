@@ -4,4 +4,5 @@ source "https://rubygems.org" do
 	# gem "rails"
   	# Gems here
   	gem "em-websocket"
+  	gem 'cocoapods'
 end
